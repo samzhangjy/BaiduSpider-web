@@ -31,6 +31,9 @@ export default {
         }
       })
     }
+  },
+  created: function () {
+    document.title = 'BaiduSpider'
   }
 }
 </script>

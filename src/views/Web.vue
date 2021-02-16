@@ -83,6 +83,7 @@ export default {
   created: function () {
     this.query = this.$route.query.q
     this.curPage = Number(this.$route.query.pn)
+    document.title = `${this.query} - BaiduSpider`
     this.getResults()
   },
   methods: {
