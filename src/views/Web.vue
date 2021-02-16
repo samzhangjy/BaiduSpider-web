@@ -47,7 +47,7 @@
           GitHub
         </a>
         <span style="margin-left: 20px"></span>
-        <a href="https://github.com/BaiduSpider/BaiduSpider-web" target="_blank" style="color: #999">
+        <a href="https://github.com/samzhangjy/BaiduSpider-web" target="_blank" style="color: #999">
           网页版
         </a>
       </bd-container>
