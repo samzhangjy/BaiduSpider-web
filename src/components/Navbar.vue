@@ -37,6 +37,11 @@ export default {
         }
       })
     }
+  },
+  watch: {
+    '$route.query.q': function () {
+      this.query = this.$route.query.q
+    }
   }
 }
 </script>

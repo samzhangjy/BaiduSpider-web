@@ -8,7 +8,26 @@
 import '@/assets/lib/gridlex.min.css'
 
 export default {
-  name: 'App'
+  name: 'App',
+  created: function () {
+    window.matchMedia('(prefers-color-scheme: dark)')
+      .addEventListener('change', event => {
+      if (event.matches) {
+        document.getElementsByTagName('body')[0].classList.add('bd-dark')
+      } else {
+        if (document.getElementsByTagName('body')[0].classList.contains('bd-dark')) {
+          document.getElementsByTagName('body')[0].classList.remove('bd-dark')
+        }
+      }
+    })
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.getElementsByTagName('body')[0].classList.add('bd-dark')
+    } else {
+      if (document.getElementsByTagName('body')[0].classList.contains('bd-dark')) {
+        document.getElementsByTagName('body')[0].classList.remove('bd-dark')
+      }
+    }
+  }
 }
 </script>
 
