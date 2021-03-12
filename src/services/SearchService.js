@@ -3,7 +3,8 @@ import axios from 'axios'
 
 export default {
   searchWeb: function (query, page = 1) {
-    if (process.env.ENV == 'VERCEL') {
+    console.log(process.env)
+    if (process.env.VERCEL == 1 || process.env.VERCEL == '1') {
       return Api().get(`/?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
         return data
       }).catch(() => {
