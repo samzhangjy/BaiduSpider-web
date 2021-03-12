@@ -239,7 +239,7 @@ export default {
   methods: {
     getResults: async function () {
       this.loading = true
-      await SearchService.searchWeb(this.query, this.curPage).then((data) => {
+      await SearchService.searchWeb(this.query, this.curPage, window.location.href).then((data) => {
         if (data == 'Error') {
           this.error = true
           this.loading = false
@@ -288,7 +288,6 @@ export default {
         this.resultId += 1
         this.loading = false
         this.getPages()
-        console.log(this.results)
         this.links = [
           {
             to: `/search/web?q=${this.query}&pn=1`,

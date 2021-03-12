@@ -2,9 +2,8 @@ import Api from '@/services/Api'
 import axios from 'axios'
 
 export default {
-  searchWeb: function (query, page = 1) {
-    console.log(process.env)
-    if (process.env.VERCEL == 1 || process.env.VERCEL == '1') {
+  searchWeb: function (query, page = 1, url = '') {
+    if (url.includes('now.sh') || url.includes('vercel.app')) {
       return Api().get(`/?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
         return data
       }).catch(() => {
