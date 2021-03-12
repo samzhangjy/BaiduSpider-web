@@ -2,6 +2,8 @@
   <div>
     <bd-navbar />
     <br /><br /><br /><br />
+    <bd-tab :links="links" :active="active">
+    </bd-tab>
     <div class="text-center center" style="width: 30%" v-if="loading">
       <bd-card
         class="bd-card-abs"
@@ -223,7 +225,9 @@ export default {
       total: 0,
       pages: [],
       curPage: 0,
-      error: false
+      error: false,
+      links: [],
+      active: '网页'
     }
   },
   created: function () {
@@ -284,6 +288,38 @@ export default {
         this.loading = false
         this.getPages()
         console.log(this.results)
+        this.links = [
+          {
+            to: `/search/web?q=${this.query}&pn=1`,
+            text: '网页',
+            icon: 'search'
+          },
+          {
+            to: `/search/news?q=${this.query}&pn=1`,
+            text: '资讯',
+            icon: 'news'
+          },
+          {
+            to: `/search/video?q=${this.query}&pn=1`,
+            text: '视频',
+            icon: 'video'
+          },
+          {
+            to: `/search/pic?q=${this.query}&pn=1`,
+            text: '图片',
+            icon: 'image-alt'
+          },
+          {
+            to: `/search/zhidao?q=${this.query}&pn=1`,
+            text: '知道',
+            icon: 'help-circle'
+          },
+          {
+            to: `/search/wenku?q=${this.query}&pn=1`,
+            text: '文库',
+            icon: 'book'
+          }
+        ]
       })
     },
     getPages: function () {

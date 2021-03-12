@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export default {
   searchWeb: function (query, page = 1) {
-    return Api().get(`/web?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
+    return Api().get(`/?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
       return data
     }).catch(() => {
       return 'Error'

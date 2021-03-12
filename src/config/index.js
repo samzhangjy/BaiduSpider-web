@@ -1,5 +1,5 @@
 const config = {
-  serverURL: 'http://127.0.0.1:5000'
+  serverURL: 'https://jsonkeeper.com/b/4QXJ'
 }
 
 export default config

@@ -1,0 +1,251 @@
+{
+    "results": [
+        {
+            "result": 1000000,
+            "type": "total"
+        },
+        {
+            "results": ["example", "example", "example", "example", "example", "example"],
+            "type": "related"
+        },
+        {
+            "process": "23+20",
+            "result": "43",
+            "type": "calc"
+        },
+        {
+            "results": [
+                {
+                    "author": "example",
+                    "time": "2021年3月12日",
+                    "title": "Aute irure fugiat sit officia aliquip fugiat.",
+                    "url": "https://example.com",
+                    "des": "Voluptate amet enim quis quis ea qui excepteur et consequat labore cupidatat."
+                },
+                {
+                    "author": "example",
+                    "time": "2021年3月12日",
+                    "title": "Aute irure fugiat sit officia aliquip fugiat.",
+                    "url": "https://example.com",
+                    "des": "Voluptate amet enim quis quis ea qui excepteur et consequat labore cupidatat."
+                },
+                {
+                    "author": "example",
+                    "time": "2021年3月12日",
+                    "title": "Aute irure fugiat sit officia aliquip fugiat.",
+                    "url": "https://example.com",
+                    "des": "Voluptate amet enim quis quis ea qui excepteur et consequat labore cupidatat."
+                },
+                {
+                    "author": "example",
+                    "time": "2021年3月12日",
+                    "title": "Aute irure fugiat sit officia aliquip fugiat.",
+                    "url": "https://example.com",
+                    "des": "Voluptate amet enim quis quis ea qui excepteur et consequat labore cupidatat."
+                },
+                {
+                    "author": "example",
+                    "time": "2021年3月12日",
+                    "title": "Aute irure fugiat sit officia aliquip fugiat.",
+                    "url": "https://example.com",
+                    "des": "Voluptate amet enim quis quis ea qui excepteur et consequat labore cupidatat."
+                }
+            ],
+            "type": "news"
+        },
+        {
+            "results": [
+                {
+                    "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                    "origin": "example",
+                    "length": "01:00",
+                    "title": "Duis Lorem exercitation.",
+                    "url": "https://example.com"
+                },
+                {
+                    "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                    "origin": "example",
+                    "length": "01:00",
+                    "title": "Duis Lorem exercitation.",
+                    "url": "https://example.com"
+                },
+                {
+                    "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                    "origin": "example",
+                    "length": "01:00",
+                    "title": "Duis Lorem exercitation.",
+                    "url": "https://example.com"
+                },
+                {
+                    "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                    "origin": "example",
+                    "length": "01:00",
+                    "title": "Duis Lorem exercitation.",
+                    "url": "https://example.com"
+                },
+                {
+                    "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                    "origin": "example",
+                    "length": "01:00",
+                    "title": "Duis Lorem exercitation.",
+                    "url": "https://example.com"
+                },
+                {
+                    "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                    "origin": "example",
+                    "length": "01:00",
+                    "title": "Duis Lorem exercitation.",
+                    "url": "https://example.com"
+                },
+                {
+                    "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                    "origin": "example",
+                    "length": "01:00",
+                    "title": "Duis Lorem exercitation.",
+                    "url": "https://example.com"
+                },
+                {
+                    "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                    "origin": "example",
+                    "length": "01:00",
+                    "title": "Duis Lorem exercitation.",
+                    "url": "https://example.com"
+                }
+            ],
+            "type": "video"
+        },
+        {
+            "result": {
+                "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                "cover-type": "image",
+                "des": "Dolor est sunt fugiat eu reprehenderit consectetur non qui adipisicing ut dolore amet.",
+                "title": "Anim ipsum exercitation ad.",
+                "url": "https://example.com"
+            },
+            "type": "baike"
+        },
+        {
+            "result": {
+                "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
+                "des": "Deserunt ex do veniam laboris cillum veniam exercitation.",
+                "title": "Esse eu exercitation cupidatat.",
+                "url": "https://example.com",
+                "followers": "1万",
+                "hot": [
+                    {
+                        "clicks": "1万",
+                        "replies": "1万",
+                        "title": "Laboris anim est amet.",
+                        "url": "https://example.com"
+                    },
+                    {
+                        "clicks": "1万",
+                        "replies": "1万",
+                        "title": "Laboris anim est amet.",
+                        "url": "https://example.com"
+                    },
+                    {
+                        "clicks": "1万",
+                        "replies": "1万",
+                        "title": "Laboris anim est amet.",
+                        "url": "https://example.com"
+                    }
+                ],
+                "total": "17万"
+            },
+            "type": "tieba"
+        },
+        {
+            "result": {
+                "blogs": [
+                    {
+                        "des": "Eiusmod ex magna Lorem exercitation incididunt sit fugiat anim et.",
+                        "origin": "example",
+                        "tags": [
+                            "python",
+                            "mac",
+                            "tutorial"
+                        ],
+                        "title": "Cupidatat nostrud ad.",
+                        "url": "https://example.com"
+                    },
+                    {
+                        "des": "Eiusmod ex magna Lorem exercitation incididunt sit fugiat anim et.",
+                        "origin": "example",
+                        "tags": [
+                            "python",
+                            "mac",
+                            "tutorial"
+                        ],
+                        "title": "Cupidatat nostrud ad.",
+                        "url": "https://example.com"
+                    },
+                    {
+                        "des": "Eiusmod ex magna Lorem exercitation incididunt sit fugiat anim et.",
+                        "origin": "example",
+                        "tags": [
+                            "python",
+                            "mac",
+                            "tutorial"
+                        ],
+                        "title": "Cupidatat nostrud ad.",
+                        "url": "https://example.com"
+                    }
+                ],
+                "title": "",
+                "url": ""
+            },
+            "type": "blog"
+        },
+        {
+            "result": {
+                "title": "Do ipsum reprehenderit.",
+                "des": "Irure enim in Lorem culpa incididunt esse non pariatur magna nostrud ullamco qui aute.",
+                "url": "https://example.com",
+                "star": 100,
+                "fork": 100,
+                "watch": 100,
+                "license": "MIT",
+                "lang": "Python",
+                "status": "https://fakeimg.pl/1000x1000/?text=EXAMPLE"
+            },
+            "type": "gitee"
+        },
+        {
+            "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
+            "origin": "example",
+            "title": "Elit nisi duis quis incididunt sint.",
+            "type": "result",
+            "url": "https://example.com"
+        },
+        {
+            "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
+            "origin": "example",
+            "title": "Elit nisi duis quis incididunt sint.",
+            "type": "result",
+            "url": "https://example.com"
+        },
+        {
+            "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
+            "origin": "example",
+            "title": "Elit nisi duis quis incididunt sint.",
+            "type": "result",
+            "url": "https://example.com"
+        },
+        {
+            "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
+            "origin": "example",
+            "title": "Elit nisi duis quis incididunt sint.",
+            "type": "result",
+            "url": "https://example.com"
+        },
+        {
+            "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
+            "origin": "example",
+            "title": "Elit nisi duis quis incididunt sint.",
+            "type": "result",
+            "url": "https://example.com"
+        }
+    ],
+    "total": 10
+}

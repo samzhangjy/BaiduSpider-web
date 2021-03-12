@@ -9,6 +9,7 @@ import Card from './components/Card'
 import Container from './components/Container'
 import Navbar from './components/Navbar'
 import Pagination from './components/Pagination'
+import Tab from './components/Tab'
 import 'boxicons'
 
 const app = createApp(App)
@@ -22,5 +23,6 @@ app.component('bd-card', Card)
 app.component('bd-container', Container)
 app.component('bd-navbar', Navbar)
 app.component('bd-pagination', Pagination)
+app.component('bd-tab', Tab)
 
 app.mount('#app')
