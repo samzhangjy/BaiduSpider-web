@@ -257,6 +257,7 @@ export default {
         this.resultsBlog = null
         this.resultsGitee = null
         this.results = data.data.results
+        console.log(this.results)
         for (var i = 0; i < this.results.results.length; i++) {
           if (this.results.results[i].type === 'result') {
             this.resultsNormal.push(this.results.results[i])

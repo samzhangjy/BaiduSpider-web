@@ -3,11 +3,19 @@ import axios from 'axios'
 
 export default {
   searchWeb: function (query, page = 1) {
-    return Api().get(`/?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
-      return data
-    }).catch(() => {
-      return 'Error'
-    })
+    if (process.env.ENV == 'VERCEL') {
+      return Api().get(`/?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
+        return data
+      }).catch(() => {
+        return 'Error'
+      })
+    } else {
+      return Api().get(`/web?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
+        return data
+      }).catch(() => {
+        return 'Error'
+      })
+    }
   },
   getVideoAddress: function (url) {
     const req = axios.create()
