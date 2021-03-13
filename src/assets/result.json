@@ -120,7 +120,7 @@
                     "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
                     "cover-type": "image",
                     "des": "Dolor est sunt fugiat eu reprehenderit consectetur non qui adipisicing ut dolore amet.",
-                    "title": "Anim ipsum exercitation ad.",
+                    "title": "样例百科",
                     "url": "https://example.com"
                 },
                 "type": "baike"
@@ -129,26 +129,26 @@
                 "result": {
                     "cover": "https://fakeimg.pl/1000x1000/?text=EXAMPLE",
                     "des": "Deserunt ex do veniam laboris cillum veniam exercitation.",
-                    "title": "Esse eu exercitation cupidatat.",
+                    "title": "样例贴吧",
                     "url": "https://example.com",
                     "followers": "1万",
                     "hot": [
                         {
                             "clicks": "1万",
                             "replies": "1万",
-                            "title": "Laboris anim est amet.",
+                            "title": "样例帖子",
                             "url": "https://example.com"
                         },
                         {
                             "clicks": "1万",
                             "replies": "1万",
-                            "title": "Laboris anim est amet.",
+                            "title": "样例帖子",
                             "url": "https://example.com"
                         },
                         {
                             "clicks": "1万",
                             "replies": "1万",
-                            "title": "Laboris anim est amet.",
+                            "title": "样例帖子",
                             "url": "https://example.com"
                         }
                     ],
@@ -193,14 +193,14 @@
                             "url": "https://example.com"
                         }
                     ],
-                    "title": "",
-                    "url": ""
+                    "title": "样例博客",
+                    "url": "https://example.com"
                 },
                 "type": "blog"
             },
             {
                 "result": {
-                    "title": "Do ipsum reprehenderit.",
+                    "title": "样例码云仓库",
                     "des": "Irure enim in Lorem culpa incididunt esse non pariatur magna nostrud ullamco qui aute.",
                     "url": "https://example.com",
                     "star": 100,
@@ -215,35 +215,35 @@
             {
                 "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
                 "origin": "example",
-                "title": "Elit nisi duis quis incididunt sint.",
+                "title": "样例搜索结果",
                 "type": "result",
                 "url": "https://example.com"
             },
             {
                 "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
                 "origin": "example",
-                "title": "Elit nisi duis quis incididunt sint.",
+                "title": "样例搜索结果",
                 "type": "result",
                 "url": "https://example.com"
             },
             {
                 "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
                 "origin": "example",
-                "title": "Elit nisi duis quis incididunt sint.",
+                "title": "样例搜索结果",
                 "type": "result",
                 "url": "https://example.com"
             },
             {
                 "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
                 "origin": "example",
-                "title": "Elit nisi duis quis incididunt sint.",
+                "title": "样例搜索结果",
                 "type": "result",
                 "url": "https://example.com"
             },
             {
                 "des": "Mollit irure magna consequat excepteur veniam. Fugiat qui magna amet eiusmod nisi sit do in nostrud irure do ipsum ex ex.",
                 "origin": "example",
-                "title": "Elit nisi duis quis incididunt sint.",
+                "title": "样例搜索结果",
                 "type": "result",
                 "url": "https://example.com"
             }
