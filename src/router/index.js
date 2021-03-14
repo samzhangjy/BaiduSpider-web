@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Index from '@/views/Index.vue'
 import Web from '@/views/Web.vue'
+import Teapot from '@/views/Teapot.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/search/web',
     name: 'Web',
     component: Web
+  },
+  {
+    path: '/teapot',
+    name: 'Teapot',
+    component: Teapot
   }
 ]
 

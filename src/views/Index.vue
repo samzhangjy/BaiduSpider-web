@@ -6,6 +6,11 @@
       <bd-inputbox v-model="query">
         <bd-button @click="searchWeb" type_="submit">搜索</bd-button>
       </bd-inputbox>
+      <span class="easter text-secondary">
+        <router-link class="text-secondary" to="/teapot">
+          Teapot
+        </router-link>
+      </span>
     </div>
   </bd-container>
 </template>

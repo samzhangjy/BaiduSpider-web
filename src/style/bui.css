@@ -518,3 +518,9 @@ a:hover {
 .text-center {
   text-align: center;
 }
+
+.easter {
+  position: absolute;
+  bottom: 0px;
+  font-size: 7px;
+}

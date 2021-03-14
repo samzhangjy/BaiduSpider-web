@@ -10,6 +10,12 @@ import '@/assets/lib/gridlex.min.css'
 export default {
   name: 'App',
   created: function () {
+    console.log(`   ___       _    __     ____     _    __
+  / _ )___ _(_)__/ /_ __/ __/__  (_)__/ /__ ____
+ / _  / _ \`/ / _  / // /\\ \\/ _ \\/ / _  / -_) __/
+/____/\\_,_/_/\\_,_/\\_,_/___/ .__/_/\\_,_/\\__/_/
+                         /_/
+加入我们：samzhang951@outlook.com`)
     window.matchMedia('(prefers-color-scheme: dark)')
       .addEventListener('change', event => {
       if (event.matches) {
