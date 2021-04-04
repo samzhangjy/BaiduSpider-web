@@ -18,18 +18,22 @@
   </div>
 </template>
 
-<script>export default {
+<script>
+export default {
   name: 'bd-pagination',
   props: {
     pages: Array,
     isFirst: Boolean,
     curPage: Number,
-    query: String
+    query: String,
+    part: {
+      default: 'web'
+    }
   },
   methods: {
     gotoPage: function (pn) {
       this.$router.push({
-        path: '/search/web',
+        path: `/search/${this.part}`,
         query: {
           q: this.query,
           pn: pn

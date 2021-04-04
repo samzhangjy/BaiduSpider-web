@@ -39,7 +39,7 @@
   </div>
   <div class="bd-footer" v-if="!loading && !error">
     <bd-container>
-      <bd-pagination :pages="pages" :isFirst="curPage == 1" :curPage="curPage" :query="query">
+      <bd-pagination part="news" :pages="pages" :isFirst="curPage == 1" :curPage="curPage" :query="query">
       </bd-pagination>
       <a href="https://github.com/BaiduSpider/BaiduSpider" target="_blank" style="color: #999">
         GitHub
