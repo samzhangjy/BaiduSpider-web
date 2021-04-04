@@ -21,6 +21,12 @@ export default {
       query: ''
     }
   },
+  props: {
+    part: {
+      default: 'web',
+      type: String
+    }
+  },
   created: function () {
     this.query = this.$route.query.q
   },
@@ -30,7 +36,7 @@ export default {
         return
       }
       this.$router.push({
-        path: '/search/web',
+        path: `/search/${this.part}`,
         query: {
           q: this.query,
           pn: 1
