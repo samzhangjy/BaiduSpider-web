@@ -8,7 +8,7 @@
         controls="controls"
         class="bd-card-video"
       ></video>
-      <img class="bd-card-img" :src="cover" v-if="coverType == 'imageFlip' && cover != undefined" style="border-radius: 15px" />
+      <img class="bd-card-img" :src="cover" v-if="coverType == 'imageFlip' && cover != undefined" style="border-radius: 15px; width: 200%" />
       <div style="padding: 10px">
         <h2 class="grid" v-if="flip == undefined">
           <div class="bd-card-title" style="padding: 10px" v-if="coverType == 'none'">
@@ -36,7 +36,7 @@
             </a>
           </div>
           <div class="col-4" v-if="coverType == 'image'">
-            <img class="bd-card-img" :src="cover" />
+            <img class="bd-card-img" :src="cover" style="width: 200px" />
           </div>
           <div class="bd-card-title" style="padding: 10px" v-if="coverType == 'video'">
             <span v-if="!url">{{ title }}</span>

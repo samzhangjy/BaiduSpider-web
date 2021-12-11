@@ -524,3 +524,9 @@ a:hover {
   bottom: 0px;
   font-size: 7px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .dark-img {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}

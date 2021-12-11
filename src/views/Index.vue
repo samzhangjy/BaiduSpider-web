@@ -1,8 +1,8 @@
 <template>
   <bd-container>
     <div class="text-center" style="margin-top: 100px">
-      <img src="../assets/favicon.png" width="100" />
-      <div style="margin-top: 30px"></div>
+      <img class="dark-img" src="../assets/banner-transparent.png" width="300" />
+      <div style="margin-top: 0px"></div>
       <bd-inputbox v-model="query">
         <bd-button @click="searchWeb" type_="submit">搜索</bd-button>
       </bd-inputbox>

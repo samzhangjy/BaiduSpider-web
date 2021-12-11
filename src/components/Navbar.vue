@@ -3,7 +3,7 @@
     <bd-container>
       <div class="bd-navbar-left">
         <router-link to="/">
-        <img src="../assets/favicon.png" class="bd-navbar-logo">
+          <img src="../assets/logo.png" class="bd-navbar-logo">
         </router-link>
         <bd-inputbox v-model="query" class="bd-navbar-search">
           <bd-button @click="searchWeb" type_="submit">搜索</bd-button>

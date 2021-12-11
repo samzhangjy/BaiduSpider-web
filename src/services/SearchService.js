@@ -39,5 +39,20 @@ export default {
         return 'Error'
       })
     }
+  },
+  searchVideo: function (query, page = 1, url = '') {
+    if (url.includes('now.sh') || url.includes('vercel.app')) {
+      return StaticApi().get(`/${config.staticNewsServerID}?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
+        return data
+      }).catch(() => {
+        return 'Error'
+      })
+    } else {
+      return Api().get(`/video?query=${encodeURIComponent(query)}&page=${page}`).then((data) => {
+        return data
+      }).catch(() => {
+        return 'Error'
+      })
+    }
   }
 }

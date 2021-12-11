@@ -3,6 +3,7 @@ import Index from '@/views/Index.vue'
 import Web from '@/views/Web.vue'
 import Teapot from '@/views/Teapot.vue'
 import News from '@/views/News.vue'
+import Video from '@/views/Video.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/search/news',
     name: 'News',
     component: News
+  },
+  {
+    path: '/search/video',
+    name: 'Video',
+    component: Video
   }
 ]
 
